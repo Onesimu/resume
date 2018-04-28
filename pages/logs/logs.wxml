@@ -1,0 +1,180 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+</view>
+
+<view class="resumeBody">
+  <view class="summary">
+    <image width="70" height="90" align="right" class="headerImg" alt="田伟" src="https://mypics.zhaopin.cn/pic/2010/2/25/DD71F9D2F64D464C87A8A992A07ED3B6.jpg" />
+    <view>田伟</view>
+    男
+    <span class="ver-line">|</span>
+    未婚
+    <span class="ver-line">|</span>
+    1988年11月生
+    <span class="ver-line">|</span>
+    户口：山西-晋城
+    <span class="ver-line">|</span>
+    <br/> 现居住于:河北 石家庄
+    <br/>
+    <view>13011595650</view>
+    <view>
+      E-mail：
+      <a href="mailto:kjgczy@126.com">kjgczy126.com</a>
+    </view>
+  </view>
+  <dl class="details">
+    <view>自我评价</view>
+    <dd>
+      <view>
+        本人性格稳重踏实，喜欢观察，热衷思考，乐于钻研，努力追求有所创新。对待工作认真负责，注重提高工作效率，希望通过自己认真细致的工作为公司创造更多价值。 掌握Java和Javascript，及Web前端和后台开发中的常用技术。可以操作Linux服务器,Nginx,前端熟悉Vue和微信小程序,后端熟悉spring boot 和 spring data.了解Kotlin开发,Netty网络通讯和redis.热爱敏捷开发，微服务和持续集成。注重规范工作流程，提高效率和质量，快速响应需求。喜欢学习，能够快速掌握新知识并使用在实际工作中。具备全栈开发能力，致力于提供整体解决方案，降低用户的学习和使用成本，最大化软件的价值。
+        <br/> Github主页：https://github.com/Onesimu/ 博客：https://onesimu.github.io/blog/
+        <br/>码云主页: https://gitee.com/Onesimu/ 博客：https://onesimu.gitee.io/blog/
+      </view>
+    </dd>
+    <view>工作经历</view>
+    <dd>
+      <view class="work-experience">
+        <view>2017/05 -- 2017/12</view>
+        <view>
+          弈生隆科技有限公司
+          <span class="ver-line">|</span>
+          软件工程师
+        </view>
+        <view>
+          <span>行业类别： 基金/证券/期货/投资</span>
+          <span>
+            <span class="ver-line">|</span>
+            企业性质：民营
+          </span>
+          <span>
+            <span class="ver-line">|</span>
+            规模：20人以下
+          </span>
+          <span>
+            <span class="ver-line">|</span>
+            职位月薪：2001-4000元/月
+          </span>
+        </view>
+        <view>
+          <strong>工作描述：</strong>
+          <br/>负责交易系统移动端的维护和新功能开发（包括前端应用和web后台）。以及公司网站，商城，移动app，第三方支付等前端业务的开发维护。
+        </view>
+      </view>
+      <view class="work-experience">
+        <view>2012/03 -- 2014/03</view>
+        <view>
+          北京嘉年华业科技有限公司
+          <span class="ver-line">|</span>
+          售前/售后技术支持工程师
+        </view>
+        <view>
+          <span>行业类别： 计算机硬件</span>
+          <span>
+            <span class="ver-line">|</span>
+            企业性质：民营
+          </span>
+          <span>
+            <span class="ver-line">|</span>
+            规模：20人以下
+          </span>
+          <span>
+            <span class="ver-line">|</span>
+            职位月薪：4001-6000元/月
+          </span>
+        </view>
+        <view>
+          <strong>工作描述：</strong>
+          <br/>负责为公司销售的坚固型笔记本电脑产品提供全方位的技术支持，包括产品售前的改装和定制，以及售后的咨询和维修，能独立解决客户的技术问题，以及配合公司其他部门满足客户更多方面的需求。
+        </view>
+      </view>
+    </dd>
+    <view>项目经验</view>
+    <dd>
+      <view class="project-experience">
+        <view>2018/01 -- 2018/03</view>
+        <view>微信小程序订货系统</view>
+        <view/>
+        <view>
+          <strong>责任描述：</strong>
+          <br/>前后台开发
+        </view>
+        <view>
+          <strong>项目简介：</strong>
+          <br/>实现用户浏览商品和加入购物车,下单功能.后端使用springboot,spring data rest 生成接口,并添加自定义业务逻辑和事务控制,前端使用wepy框架实现小程序客户端.使用wafer2服务器端框架辅助开发微信开放接口，调取微信授权并自动登录.。通过spring session，redis，或内存数据库在node和java服务器间同步session数据，实现分布式集群和微服务风格的开发。也可以使用weweb转成网页应用，或打包为android、iOS应用，实现一套代码，多端复用。
+        </view>
+      </view>
+      <view class="project-experience">
+        <view>2017/05 -- 2017/12</view>
+        <view>期货交易系统移动端</view>
+        <view/>
+        <view>
+          <strong>责任描述：</strong>
+          <br/>负责交易系统移动端的维护和新功能开发（包括前端应用和web后台）。
+        </view>
+        <view>
+          <strong>项目简介：</strong>
+          <br/>交易系统前端是使用Vue+Vux制作的单页应用。后台是使用Tomcat容器的Spring应用，以socket长连接与交易后台通讯，转换为HTTP和WebSocket接口发送到前端。其中，行情信息使用WebSocket实时推送，页面上通过Vue的数据绑定实时更新，显示最新的行情数据。交易数据通过Ajax异步请求发送，为避免重复交易对每笔请求使用token验证. 服务器端会对转发交易请求的socket长连接进行复用，发送时轮流使用，数据返回时使用对应的异步请求对象将数据返回页面。为提高性能，后期使用了Netty、Undertow、nginx等高性能容器，提高了客户体验。
+        </view>
+      </view>
+    </dd>
+    <view>教育经历</view>
+    <dd>
+      <view class="education-background">
+        <view>2006/09 -- 2010/07</view>
+        <view>
+          山西大同大学
+          <span class="ver-line">|</span>
+          统计学
+          <span class="ver-line">|</span>
+          本科
+        </view>
+      </view>
+    </dd>
+    <view>培训经历</view>
+    <dd>
+      <view class="training">
+        <view>2016/01 -- 2016/12</view>
+        <view>石家庄顽石教育有限公司</view>
+        <view>
+          <view>
+            <strong>培训课程：</strong>
+            JavaWeb开发
+            <br/>
+          </view>
+          <view>
+            <strong>培训地点：</strong>
+            石家庄
+            <br/>
+          </view>
+          <view>
+            <strong>培训描述：</strong>
+            主要课程有
+            <br/> 初级:网页基础(HTML、CSS)、Java编程，
+            <br/> 中级:SQL、Oracle数据库基础、jQuery、JSP和Servlet，
+            <br/> 高级:SSH、SpringMVC和MyBatis。
+            <br/>了解主流前端和后台开发框架（Spring，Vue，BootStrap），熟悉Java和JavaScript语言。
+          </view>
+        </view>
+      </view>
+    </dd>
+    <view>证书</view>
+    <dd>
+      <view class="certificates">
+        <view>2008/06</view>
+        <view>大学英语四级</view>
+        <p/>
+      </view>
+    </dd>
+    <view>附件</view>
+    <dd>
+      <view class="photo-attach">
+        <img style="max-width:100%;_width=610px;" align="center" alt="" src="https://mypics.zhaopin.cn/pic/2010/2/25/DD71F9D2F64D464C87A8A992A07ED3B6.jpg" />
+        <p/>
+      </view>
+    </dd>
+  </dl>
+  <input id="neturlparam" type="hidden" value="AppId=1&Id=126566851&Timestamp=1523330818&Callback=&signature=AC69C50AAD4066EB11150B786DE6C217" />
+</view>
